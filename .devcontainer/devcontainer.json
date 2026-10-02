@@ -1,0 +1,4 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "postStartCommand": "sudo pkill dockerd; sleep 3; sudo /usr/local/share/docker-init.sh"
+}
